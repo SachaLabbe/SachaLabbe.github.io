@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styyle.css">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Menu</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="Map.html">Acceuil</a>
+                <a class="nav-item nav-link" href="index.html">Portfolio</a>
+                <a class="nav-item nav-link" href="Formulaire.html">Formulaire</a>
+                <a class="nav-item nav-link" href="Pokemon.html">Pokemon</a>
+                <a class="nav-item nav-link" href="Canevas.html">Jeu</a>
+            </div>
+        </div>
+    </nav>
+    <title>Formulaire</title>
+</head>
+<body>
+<form action="FormulaireEnvoye.html">
+    <div class="form-group col-xl-3 col-12">
+        <label for="inputNom">Nom</label>
+        <input type="Text" class="form-control" id="inputNom" aria-described="Nom" placeholder="Entrez votre nom"></input>
+    </div>
+    <div class="form-group col-xl-3 col-12">
+        <label for="inputPrénom">Prénom</label>
+        <input type="Text" class="form-control" id="inputPrénom" aria-described="PréNom" placeholder="Entrez votre prénom"></input>
+    </div>
+    <div class="form-group col-xl-3 col-12">
+        <label for="inputPrénom">Email</label>
+        <input type="email" class="form-control" id="inputemail" aria-described="Email" placeholder="Entrez votre adresse email"></input>
+    </div>
+    <div class="form-group col-xl-3 col-12">
+        <label for="inputPrénom">Date de naissance</label>
+        <input type="date" class="form-control" id="inputdate" aria-described="Email" placeholder="Entrez la date"></input>
+    </div>
+
+    <div class="form-group col-xl-4 col-12">
+        <label for="inputState">Sujet de la demande d’aide</label>
+        <select id="inputState" class="form-control">
+            <option selected>HTML</option>
+            <option>CSS</option>
+            <option>Bootstrap</option>
+            <option>Positionnement des divisions</option>
+        </select>
+    </div>
+    <div class="form-group col-xl-8 col-12">
+        <label for="inputQuestion">Question</label>
+        <input type="Text" class="form-control" id="inputQuestion" aria-described="Question" placeholder="Quelle est votre question?"></input>
+    </div>
+
+    <div class="col-xl-4 col-12 ">
+        <input type="radio"name="ok" value="Urgent"> Urgent<br>
+        <input type="radio"name="ok" value="Important"> Important<br>
+        <input type="radio"name="ok" value="PeutAttendre"> Peut attendre<br>
+        <a href="FormulaireEnvoye.html"><button type="submit" class="btn">Envoyer</button></a>
+        <button type="reset" class="btn">Réinitialiser</button>
+    </div>
+
+</form>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="monScript.js"></script>
+</body>
+<footer>
+    <div class="row text-center">
+        <div class="col-6 offset-3">
+            <marquee>Nous offrons des services fiables, gratuits, professionnels, durables, garantis, je dunk dans ta face, efficace et écoénergétique.</marquee>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-12 text-center">
+            <a href="https://cegepvicto.omnivox.ca/intr/Module/Identification/Login/Login.aspx?ReturnUrl=%2fintr%2f">Messages</a>
+            <a href="https://www.facebook.com/shany.carle">Notre FaceBook</a>
+        </div>
+    </div>
+</footer>
+</html>

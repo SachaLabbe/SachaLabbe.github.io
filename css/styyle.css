@@ -1,0 +1,28 @@
+body {
+    margin:0;
+    margin-top:16px;
+    position:relative;
+    background-color: #6f42c1;
+}
+footer{
+    width:100%;
+    background:black;
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+    text-align:center;
+    position:fixed;
+    bottom:0px;
+    left:0;
+}
+
+@media screen and (max-width: 1050px) {
+    body {
+        background-color: yellow;
+    }
+}
+@media screen and (max-width: 450px) {
+    body {
+        background-color: blue;
+    }
+}
